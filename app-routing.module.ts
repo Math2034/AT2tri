@@ -13,11 +13,11 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
-    path: 'teste/:valor',
+    path: 'teste/:banda/:album/:musica',
     loadChildren: () => import('./teste/teste.module').then( m => m.TestePageModule)
   },
   {
-    path: 'conferencia/:valor',
+    path: 'conferencia/:banda/:album/:musica',
     loadChildren: () => import('./conferencia/conferencia.module').then( m => m.ConferenciaPageModule)
   },
 ];
