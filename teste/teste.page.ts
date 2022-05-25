@@ -13,9 +13,9 @@ export class TestePage implements OnInit {
   constructor(private activatedRoute: ActivatedRoute) { }
 
   ngOnInit() {
-    this.banda = this.activatedRoute.snapshot.paramMap.get('valor');
-    this.album = this.activatedRoute.snapshot.paramMap.get('valor');
-    this.musica = this.activatedRoute.snapshot.paramMap.get('valor');
+    this.banda = this.activatedRoute.snapshot.paramMap.get('banda');
+    this.album = this.activatedRoute.snapshot.paramMap.get('album');
+    this.musica = this.activatedRoute.snapshot.paramMap.get('musica');
   }
 
 }
