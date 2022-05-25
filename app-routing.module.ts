@@ -17,7 +17,7 @@ const routes: Routes = [
     loadChildren: () => import('./teste/teste.module').then( m => m.TestePageModule)
   },
   {
-    path: 'conferencia/:banda/:album/:musica',
+    path: 'conferencia/:valor',
     loadChildren: () => import('./conferencia/conferencia.module').then( m => m.ConferenciaPageModule)
   },
 ];
