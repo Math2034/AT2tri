@@ -21,9 +21,7 @@ export class HomePage {
       this.rota.navigateByUrl(`/home`);
     }
     else{
-      this.rota.navigateByUrl(`/teste/${this.banda}`);
-      this.rota.navigateByUrl(`/teste/${this.album}`);
-      this.rota.navigateByUrl(`/teste/${this.musica}`);
+      this.rota.navigateByUrl(`/teste/${this.banda}/${this.album}/${this.musica}`);
     }
   }
 }
