@@ -7,14 +7,17 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
+  
   <ion-item>
     <ion-label position="floating">Banda</ion-label>
     <ion-input [(ngModel)]="banda"></ion-input>
   </ion-item>
+
   <ion-item>
     <ion-label position="floating">Album</ion-label>
     <ion-input [(ngModel)]="album"></ion-input>
   </ion-item>
+
   <ion-item>
     <ion-label position="floating">Musica</ion-label>
     <ion-input [(ngModel)]="musica"></ion-input>
@@ -23,3 +26,4 @@
   <ion-button expand="block" fill="outline" (click)="abrirPaginaTeste()">GO</ion-button>
   <ion-button expand="block" fill="outline" (click)="abrirPaginaConferencia()">Conferencia</ion-button>
 </ion-content>
+
